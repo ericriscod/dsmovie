@@ -6,6 +6,8 @@
     --white: #fff;
     --text-gray: #4a4a4a;
     --text-ligth-gray: #aaa;
+    --star-yellow: #ffbb3a;
+
 }
 
 *{
@@ -89,6 +91,32 @@ a, a:hover{
     margin-bottom: 25px;
     text-align: center;
 }
+
+.dsmoive-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsmoive-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-ligth-gray);
+    margin-bottom: 10px;
+ 
+}
+
+.dsmoive-card-description-bottom h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+
+}
+
+.dsmoive-card-description-bottom img {
+    width: 22px;
+}
+
 
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px ;
